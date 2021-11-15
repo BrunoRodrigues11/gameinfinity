@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameInfinity - Games</title>
+  <script src="https://kit.fontawesome.com/abf65111b3.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/ldbtn.min.css" rel="stylesheet">
+  <link href="css/games.css" rel="stylesheet">
+  <link rel="shortcut icon" href="svg/Game-Infinity.ico" />
+</head>
+
+<body class="fundo">
+  <!-- Navbar Primária -->
+  <nav class="nav navbar navbar-inverse menu">
+    <div class="container-fluid">
+      <!-- Agrupamento para exibição MOBILE -->
+      <div id="topo" class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed menuClose" data-toggle="collapse"
+          data-target="#defaultNavbar" aria-expanded="false">
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/Logo.svg" alt="">
+        </a>
+      </div>
+      <!-- Nav direita -->
+      <div class="collapse navbar-collapse" id="defaultNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="">PRODUTOS
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="html/games.html">Games</a></li>
+              <li><a href="html/games.html">Periféricos</a></li>
+            </ul>
+          </li>
+          <li><a class="contact">CONTATO</a></li>
+          <li class=""><a href="/sobre.html">SOBRE</a></li>
+        </ul>
+        <!-- Nav direita -->
+        <div class="">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart">Carrinho</span> <span class="badge">1</span>
+              </a></li>
+            <li><a href="html/login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- fechamento container-fluid -->
+  </nav>
+
+  <!-- Botão Up Flutuante -->
+  <div class="btn-up jbtnup">
+    <nav>
+      <a href="" class="btn-up-link jbtnuplink"></a>
+    </nav>
+  </div>
+
+  <!-- INPUT DE PESQUISA -->
+  <div class="contaimer-fluid fundo corFonteBranca">
+    <div class="container">
+      <h2>Pesquisar Jogos</h2>
+      <input type="text" name="txtBusca" id="txtBusca" placeholder="Pesquise aqui"><br><br>
+    </div>
+  </div>
+
+  <div id="portfolio" class="container-fluid fundo">
+    <div class="container">
+
+      <!-- TABELA DOS ITENS PESQUISADOS -->
+      <table class="table table-bordered table-hover table-striped fundo5">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Desevolvedor</th>
+            <th>Preço</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          <tr>
+            <td class="vcenter">Cities: Skylines</td>
+            <td>Colossal Order</td>
+            <td>R$ 55,99</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/cities-skylines.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Couter-Strike: Global Offensive</td>
+            <td>Valve</td>
+            <td>Gratuito</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/cs-go.html">
+                <button class=" btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Euro Truck Simulator 2</td>
+            <td>SCS Software</td>
+            <td>Gratuito</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/euro-truck-simulator-2.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>EA Sports FIFA 2021</td>
+            <td>Eletonic Arts</td>
+            <td>R$ 98,67</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/fifa-2021.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Grand Theft Auto V</td>
+            <td>Rockstar Games</td>
+            <td>R$ 55,99</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/grand-theft-auto-v.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Just Dance 2020</td>
+            <td>Ubsoft</td>
+            <td>R$ 149,99</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/just-dance-2020.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Minecraft Java Edition</td>
+            <td>Mojang Studios</td>
+            <td>R$ 89,90</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/minecraft-java-edition.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Need for Speed: Most Wanted</td>
+            <td>Eletronic Arts</td>
+            <td>R$ 59,00</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/nfs-most-wanted.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>eFootbal PES 2021</td>
+            <td>Konami</td>
+            <td>R$ 99,90</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/pro-evolution-soccer-2021.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Playerunknown's Battlegrounds</td>
+            <td>KRAFTON, Inc.</td>
+            <td>R$ 75,00</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/pubg.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Red Dead Redemption 2</td>
+            <td>Colossal Order</td>
+            <td>R$ 55,99</td>
+            <td>Em estoque</td>
+            <td>
+              <a href="games/red-dead-redemption2.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr class="danger">
+            <td>The Sims 4</td>
+            <td>Eletronic Arts</td>
+            <td>R$ 159,99</td>
+            <td>Sem estoque</td>
+            <td>
+              <a href="games/the-sims-4.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit" disabled="disabled">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr class="danger">
+            <td>Farming Simulator 19</td>
+            <td>Giants Software</td>
+            <td>R$ 69,90</td>
+            <td>Sem estoque</td>
+            <td>
+              <a href="games/cities-skylines.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit" disabled="disabled">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+          <tr class="danger">
+            <td>Among US</td>
+            <td>Innersloth</td>
+            <td>R$ 18,99</td>
+            <td>Sem estoque</td>
+            <td>
+              <a href="games/cities-skylines.html" class="txdNone">
+                <button class="btn btn-info btn-block" type="submit" disabled="disabled">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  Detalhes do jogo
+                </button>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div id="rodape-1" class="container-fluid">
+    <div id="rodapeInterno" class="container">
+      <div class="col-md-4 col-xs-6 centralizado">
+        <h4 class="text bold1">LOCALIZAÇÂO</h4>
+        <p>Rua do Sol, 395 - Vila Barth</p>
+        <p>Itapetininga - São Paulo</p>
+      </div>
+      <div class="col-md-4 col-xs-6">
+        <h4 class="centralizado text bold1">REDES SOCIAIS</h4>
+        <div class="centralizado">
+          <a href="#"><img src="svg/Facebook.svg" alt="facebook" class="social"></a>
+          <a href="#"><img src="svg/Youtube.svg" alt="Email" class="social"></a>
+          <a href="#"><img src="svg/Twetter.svg" alt="Twitter" class="social"></a>
+          <a href="#"><img src="svg/Instagram.svg" alt="Website" class="social"></a>
+          <a href="#"><img src="svg/Linkedin.svg" alt="Linkedin" class="social"></a>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12 hidden-xs centralizado">
+        <h4 class="text bold1">SAIBA MAIS</h4>
+        <p>Blog</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé 2-->
+  <div class="container-fluid footer corFonteBranca centralizado">
+    <div class="container">
+      <h6>Copyright&copy; GameStore 2021</h6>
+    </div>
+  </div>
+
+  <!-- Modal Contato -->
+  <div id="modal-contato" class="modal-container">
+    <div class="modal-contato">
+      <button class="fechar">X</button>
+      <h3 class="centralizado bold">CONTATO</h3>
+      <form action="">
+        <div class="form-group">
+          <label class="corFonteBranca" for="Nome">Nome</label>
+          <input type="nome" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label class="corFonteBranca" for="Email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
+        </div>
+        <label class="corFonteBranca" for="Mensagem">Mensagem</label>
+        <div class="form-group">
+          <textarea name="mensagem" id="mensagem" cols="45" rows="5" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <div>
+          <buitton type="button" class="btn btn-enviar btn-block">
+            <span class="glyphicon glyphicon-send"></span> Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $("#txtBusca").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function () {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

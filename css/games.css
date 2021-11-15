@@ -1,0 +1,238 @@
+.comprarGame{
+    width: 205px;
+    height: 65%;
+    position: absolute;
+    left: 530px;
+    top: 58px;
+    text-align: center;
+    display: inline;
+}
+
+.comprarGame i{
+    padding-right: 10px;
+}
+
+.comprarGame2{
+    width: 490px;
+    height: 65%;
+    position: absolute;
+    left: 245px;
+    top: 58px;
+    text-align: center;
+    display: inline;
+}
+
+.comprarGame2 i{
+    padding-right: 10px;
+    padding-left: 10px;    
+}
+
+.desconto{
+    font-size: 18px; 
+    margin-left: 10px;
+    padding: 7px;  
+}
+
+.tabelaGame{
+    margin: auto;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.tabelaGame tr:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.descriGame{
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.sobreGame{
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.headerGame{
+    padding-bottom: 15px;
+}
+
+.tbGame{
+    padding: 10px;
+    padding-bottom: 20px;    
+}
+
+#txtBusca {
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #2f3640;  
+    border: #05c46b 1px solid;
+    box-shadow: none;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+#txtBusca:focus{
+    width: 550px;    
+    color: #FFF;
+    border: #05c46b 1px solid;
+}
+
+li{
+    list-style:none;
+}
+
+.imgTable{
+    width: 170px;
+    height: 90px;
+}
+
+.bgMine{
+    background: url("../img/minecraft-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgCities{
+    background: url("../img/cities-skylines-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgGTA{
+    background: url("../img/gta-v-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgPES{
+    background: url("../img/pro-evolution-soccer-2021-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgNFS{
+    background: url("../img/nfs-most-wanted-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgFIFA{
+    background: url("../img/fifa-2021-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgPubg{
+    background: url("../img/pubg-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgCSGO{
+    background: url("../img/cs-go-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgETS2{
+    background: url("../img/ets2-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgJustDance{
+    background: url("../img/just-dance-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgRD2{
+    background: url("../img/red-dead-edemption-2-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bgcFreeGames{
+    background-image: url("../img/bgc-free-games.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    background-size: cover;
+    width: 100%;
+    height: 100%;    
+}
+
+.bgcCard{
+    background-color: rgba(130, 179, 197, 0.5);
+}
+
+/* BOTÕES */
+.btnBack{
+    background:transparent;
+    transition: all 0.3s ease-in;
+}
+.btnBack:hover{
+    color: #00D646;
+    background:#00D646;
+}
+
+.borda{
+    border:none;
+}
+
+.txdNone:hover{
+    text-decoration: none;
+}
+
+.btnLive{
+    position: absolute;
+    font-size: 1.1em;
+    top: 5px;
+    right: 477px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    background: #FF0000;
+    color: white;
+}
+
+.vcenter {
+    vertical-align: middle;
+}
